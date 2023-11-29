@@ -45,7 +45,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Rock, Paper, Scissors](https://stefananghel93.github.io/personal-website/)
+- Live Site URL: [Rock, Paper, Scissors](https://stefananghel93.github.io/rock-paper-scissors/)
 
 ## My process
 
