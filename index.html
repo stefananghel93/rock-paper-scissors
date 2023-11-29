@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to my game of <br> Rock, Paper, Scissors</h1>
+    </header>
+    <main class="main">
+        <div class="scoreboard">
+            <h2 id="scoreInfo">Make your selection</h2>
+            <h3 id="scoreMessage">First to score 3 points wins the game</h3>
+            <div class="score-container">
+                <div class="scoreBox">
+                    <div class="sign" id="playerSign">?</div>
+                    <p class="score" id="playerScore">Player: 0</p>
+                </div>
+                <div class="scoreBox">
+                    <div class="sign" id="computerSign">?</div>
+                    <p class="score" id="computerScore">Computer: 0</p>
+            </div>   
+        </div>
+        <div class="buttons">
+            <button class="btn" id="rockBtn">✊</button>
+            <button class="btn" id="paperBtn">✋</button>
+            <button class="btn" id="scissorsBtn">✌️</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Copyright © 2023 Stefan Anghel</p>
+    </footer>
+    <div class="modal" id="endGameModal">
+        <p class="modal-title" id="endGameMsg">You won!</p>
+        <button class="btn-restart" id="restartBtn">Play Again</button>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    
+    <script src="./index.js"></script>
+</body>
+
+</html>
