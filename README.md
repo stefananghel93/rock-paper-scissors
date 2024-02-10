@@ -1,4 +1,4 @@
-#  Personal website
+#  Rock, Paper, Scissors Game
 
 Rock, Paper, Scissors game: This GitHub repository contains the HTML, CSS and JavaScript code for my game of Rock, Paper, Scissors showcasing my web development skills.
 
