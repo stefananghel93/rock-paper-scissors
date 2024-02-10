@@ -106,7 +106,7 @@ function updateScore(){
     document.getElementById("computerScore").innerHTML = `Computer: ${computerScore}`;
 }
 
-//create a function that checks if any o players reached the 5 five points and the game is over
+//create a function that checks if any o players reached the 3 points and the game is over
 function isGameOver(){
     return playerScore === winningScore || computerScore === winningScore;
 
